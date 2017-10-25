@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B33F1CE1EFE89E500D58202 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B33F1CD1EFE89E500D58202 /* AppDelegate.swift */; };
+		9B33F1D51EFE89E500D58202 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B33F1D41EFE89E500D58202 /* Assets.xcassets */; };
+		9B33F1E31EFE89E500D58202 /* TomathoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B33F1E21EFE89E500D58202 /* TomathoTests.swift */; };
+		9B33F1EE1EFE89E500D58202 /* TomathoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B33F1ED1EFE89E500D58202 /* TomathoUITests.swift */; };
+		9B33F2031EFF604600D58202 /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B33F2011EFF604600D58202 /* LaunchScreen.swift */; };
+		9B33F2041EFF604600D58202 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B33F2021EFF604600D58202 /* LaunchScreen.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B33F1DF1EFE89E500D58202 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B33F1C21EFE89E500D58202 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B33F1C91EFE89E500D58202;
+			remoteInfo = Tomatho;
+		};
+		9B33F1EA1EFE89E500D58202 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B33F1C21EFE89E500D58202 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B33F1C91EFE89E500D58202;
+			remoteInfo = Tomatho;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B33F1CA1EFE89E500D58202 /* Tomatho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tomatho.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B33F1CD1EFE89E500D58202 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B33F1D41EFE89E500D58202 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B33F1D91EFE89E500D58202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B33F1DE1EFE89E500D58202 /* TomathoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TomathoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B33F1E21EFE89E500D58202 /* TomathoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TomathoTests.swift; sourceTree = "<group>"; };
+		9B33F1E41EFE89E500D58202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B33F1E91EFE89E500D58202 /* TomathoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TomathoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B33F1ED1EFE89E500D58202 /* TomathoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TomathoUITests.swift; sourceTree = "<group>"; };
+		9B33F1EF1EFE89E500D58202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B33F2011EFF604600D58202 /* LaunchScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
+		9B33F2021EFF604600D58202 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B33F1C71EFE89E500D58202 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B33F1DB1EFE89E500D58202 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B33F1E61EFE89E500D58202 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B33F1C11EFE89E500D58202 = {
+			isa = PBXGroup;
+			children = (
+				9B33F1CC1EFE89E500D58202 /* Tomatho */,
+				9B33F1E11EFE89E500D58202 /* TomathoTests */,
+				9B33F1EC1EFE89E500D58202 /* TomathoUITests */,
+				9B33F1CB1EFE89E500D58202 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B33F1CB1EFE89E500D58202 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B33F1CA1EFE89E500D58202 /* Tomatho.app */,
+				9B33F1DE1EFE89E500D58202 /* TomathoTests.xctest */,
+				9B33F1E91EFE89E500D58202 /* TomathoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B33F1CC1EFE89E500D58202 /* Tomatho */ = {
+			isa = PBXGroup;
+			children = (
+				9B33F1CD1EFE89E500D58202 /* AppDelegate.swift */,
+				9B33F1D41EFE89E500D58202 /* Assets.xcassets */,
+				9B33F1D91EFE89E500D58202 /* Info.plist */,
+				9B33F2011EFF604600D58202 /* LaunchScreen.swift */,
+				9B33F2021EFF604600D58202 /* LaunchScreen.xib */,
+			);
+			path = Tomatho;
+			sourceTree = "<group>";
+		};
+		9B33F1E11EFE89E500D58202 /* TomathoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B33F1E21EFE89E500D58202 /* TomathoTests.swift */,
+				9B33F1E41EFE89E500D58202 /* Info.plist */,
+			);
+			path = TomathoTests;
+			sourceTree = "<group>";
+		};
+		9B33F1EC1EFE89E500D58202 /* TomathoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B33F1ED1EFE89E500D58202 /* TomathoUITests.swift */,
+				9B33F1EF1EFE89E500D58202 /* Info.plist */,
+			);
+			path = TomathoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B33F1C91EFE89E500D58202 /* Tomatho */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B33F1F21EFE89E500D58202 /* Build configuration list for PBXNativeTarget "Tomatho" */;
+			buildPhases = (
+				9B33F1C61EFE89E500D58202 /* Sources */,
+				9B33F1C71EFE89E500D58202 /* Frameworks */,
+				9B33F1C81EFE89E500D58202 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tomatho;
+			productName = Tomatho;
+			productReference = 9B33F1CA1EFE89E500D58202 /* Tomatho.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B33F1DD1EFE89E500D58202 /* TomathoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B33F1F51EFE89E500D58202 /* Build configuration list for PBXNativeTarget "TomathoTests" */;
+			buildPhases = (
+				9B33F1DA1EFE89E500D58202 /* Sources */,
+				9B33F1DB1EFE89E500D58202 /* Frameworks */,
+				9B33F1DC1EFE89E500D58202 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B33F1E01EFE89E500D58202 /* PBXTargetDependency */,
+			);
+			name = TomathoTests;
+			productName = TomathoTests;
+			productReference = 9B33F1DE1EFE89E500D58202 /* TomathoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B33F1E81EFE89E500D58202 /* TomathoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B33F1F81EFE89E500D58202 /* Build configuration list for PBXNativeTarget "TomathoUITests" */;
+			buildPhases = (
+				9B33F1E51EFE89E500D58202 /* Sources */,
+				9B33F1E61EFE89E500D58202 /* Frameworks */,
+				9B33F1E71EFE89E500D58202 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B33F1EB1EFE89E500D58202 /* PBXTargetDependency */,
+			);
+			name = TomathoUITests;
+			productName = TomathoUITests;
+			productReference = 9B33F1E91EFE89E500D58202 /* TomathoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B33F1C21EFE89E500D58202 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Tomatho;
+				TargetAttributes = {
+					9B33F1C91EFE89E500D58202 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = MZ8ELQL6GW;
+						ProvisioningStyle = Automatic;
+					};
+					9B33F1DD1EFE89E500D58202 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = MZ8ELQL6GW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9B33F1C91EFE89E500D58202;
+					};
+					9B33F1E81EFE89E500D58202 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = MZ8ELQL6GW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9B33F1C91EFE89E500D58202;
+					};
+				};
+			};
+			buildConfigurationList = 9B33F1C51EFE89E500D58202 /* Build configuration list for PBXProject "Tomatho" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B33F1C11EFE89E500D58202;
+			productRefGroup = 9B33F1CB1EFE89E500D58202 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B33F1C91EFE89E500D58202 /* Tomatho */,
+				9B33F1DD1EFE89E500D58202 /* TomathoTests */,
+				9B33F1E81EFE89E500D58202 /* TomathoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B33F1C81EFE89E500D58202 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B33F2041EFF604600D58202 /* LaunchScreen.xib in Resources */,
+				9B33F1D51EFE89E500D58202 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B33F1DC1EFE89E500D58202 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B33F1E71EFE89E500D58202 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B33F1C61EFE89E500D58202 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B33F2031EFF604600D58202 /* LaunchScreen.swift in Sources */,
+				9B33F1CE1EFE89E500D58202 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B33F1DA1EFE89E500D58202 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B33F1E31EFE89E500D58202 /* TomathoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B33F1E51EFE89E500D58202 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B33F1EE1EFE89E500D58202 /* TomathoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B33F1E01EFE89E500D58202 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B33F1C91EFE89E500D58202 /* Tomatho */;
+			targetProxy = 9B33F1DF1EFE89E500D58202 /* PBXContainerItemProxy */;
+		};
+		9B33F1EB1EFE89E500D58202 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B33F1C91EFE89E500D58202 /* Tomatho */;
+			targetProxy = 9B33F1EA1EFE89E500D58202 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9B33F1F01EFE89E500D58202 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B33F1F11EFE89E500D58202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B33F1F31EFE89E500D58202 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = MZ8ELQL6GW;
+				INFOPLIST_FILE = Tomatho/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomatho.ios.Tomatho;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9B33F1F41EFE89E500D58202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = MZ8ELQL6GW;
+				INFOPLIST_FILE = Tomatho/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomatho.ios.Tomatho;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9B33F1F61EFE89E500D58202 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MZ8ELQL6GW;
+				INFOPLIST_FILE = TomathoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomatho.ios.TomathoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tomatho.app/Tomatho";
+			};
+			name = Debug;
+		};
+		9B33F1F71EFE89E500D58202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MZ8ELQL6GW;
+				INFOPLIST_FILE = TomathoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomatho.ios.TomathoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tomatho.app/Tomatho";
+			};
+			name = Release;
+		};
+		9B33F1F91EFE89E500D58202 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = MZ8ELQL6GW;
+				INFOPLIST_FILE = TomathoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomatho.ios.TomathoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Tomatho;
+			};
+			name = Debug;
+		};
+		9B33F1FA1EFE89E500D58202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = MZ8ELQL6GW;
+				INFOPLIST_FILE = TomathoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomatho.ios.TomathoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Tomatho;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B33F1C51EFE89E500D58202 /* Build configuration list for PBXProject "Tomatho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B33F1F01EFE89E500D58202 /* Debug */,
+				9B33F1F11EFE89E500D58202 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B33F1F21EFE89E500D58202 /* Build configuration list for PBXNativeTarget "Tomatho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B33F1F31EFE89E500D58202 /* Debug */,
+				9B33F1F41EFE89E500D58202 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9B33F1F51EFE89E500D58202 /* Build configuration list for PBXNativeTarget "TomathoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B33F1F61EFE89E500D58202 /* Debug */,
+				9B33F1F71EFE89E500D58202 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9B33F1F81EFE89E500D58202 /* Build configuration list for PBXNativeTarget "TomathoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B33F1F91EFE89E500D58202 /* Debug */,
+				9B33F1FA1EFE89E500D58202 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B33F1C21EFE89E500D58202 /* Project object */;
+}
